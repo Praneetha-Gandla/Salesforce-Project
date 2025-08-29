@@ -10,6 +10,7 @@
 global class AccessModifiers {
     global Integer i=8;
     global boolean b=true;
+    global string n = 'chinni';
     public void method()
      {
         System.debug(i);
