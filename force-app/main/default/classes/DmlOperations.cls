@@ -48,6 +48,7 @@ public with sharing class DmlOperations {
         Account li=new Account(Name='list');
         Account li1=new Account(Name='list1');
         Account li2 = new Account(Name = 'list2');
+        Account li3 = new Account(Name = 'list3');
         acc.add(li);
         acc.add(li1);
         System.debug(acc);
